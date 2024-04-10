@@ -275,8 +275,8 @@ Player.prototype = {
 // Setup our new audio player class and pass it the playlist.
 var player = new Player([
   {
-    title: 'S.E.X. [Mix 3]',
-    file: 'S.E.X. [Mix 3].mp3',
+    title: 'S.E.X. [Mix 4]',
+    file: 'S.E.X. [Mix 4].mp3',
     howl: null
   }
 ]);
