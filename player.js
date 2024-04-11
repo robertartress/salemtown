@@ -273,13 +273,15 @@ Player.prototype = {
 };
 
 // Setup our new audio player class and pass it the playlist.
-var player = new Player([
+/* var player = new Player([
   {
-    title: 'S.E.X. [Mix 4]',
-    file: 'S.E.X. [Mix 4].mp3',
+    title: 'Let It Ride [Master_v1]',
+    file: 'Let It Ride [Master_v1] 44_16.flac',
     howl: null
   }
-]);
+]); */
+
+var player = new Player(playerData);
 
 // Bind our player controls.
 playBtn.addEventListener('click', function() {
